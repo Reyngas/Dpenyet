@@ -1,0 +1,285 @@
+body {
+    background-color: #111;
+    color:white;
+    font-family:arial, sans-serif;
+}
+.navbar{
+    background-color: black !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+section h1, section h2{
+    color: #f5c542;
+}
+
+#home { 
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.btn-warning {
+    font-weight: bold;
+}
+
+#menu {
+    color: #f5c542;
+}
+
+.menu-item{
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.menu-info{
+    text-align: left;
+}
+
+.menu-info h4{
+    color: #f5c542;
+}
+
+.menu-info p{
+    color: #ccc;
+    margin-bottom: 0;
+}
+
+.menu-harga{
+    text-align: right;
+    min-width:120px;
+}
+
+.menu-harga h5{
+    color: white;
+}
+@media (max-width: 600px) {
+
+    .menu-item {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .menu-photo {
+        width: 85px;
+        height: 85px;
+        font-size: 45px;
+    }
+
+    .menu-info {
+        flex: 1;
+        min-width: 130px;
+    }
+
+    .menu-harga {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 100px;
+        text-align: left;
+    }
+}
+
+.menu-photo {
+    width: 110px;
+    height: 100px;
+    background-color: #333;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 55px;
+    flex-shrink: 0;
+}
+
+.menu-info {
+    flex: 1;
+}
+
+.kotak-keranjang{
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.kotak-keranjang h4{
+    color: #f5c542;
+}
+
+.detail-produk {
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.detail-produk h3,
+.detail-produk h4 {
+    color: #f5c542;
+}
+
+.detail-produk p,
+.detail-produk li {
+    color: #ccc;
+}
+
+#daftar-pesanan {
+    color: white;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#daftar-pesanan li {
+    padding: 8px;
+    border-bottom: 1px solid #444;
+}
+
+
+.kotak-checkout {
+    background-color: #222;
+    border: 1px solid #444;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.kotak-checkout h4 {
+    color: #f5c542;
+}
+
+.kotak-checkout label,
+.kotak-checkout p {
+    color: white;
+}
+.kartu {
+    display:block;background:#222;border:1px solid #444;border-radius:10px;padding:20px;text-align:center;color:#fff;margin-bottom:15px
+}
+.kartu .ikon{
+    font-size:3rem
+}
+.kartu h5 {
+    color:#f5c542
+}
+a.kat {
+    color:#f5c542;font-weight:700;text-decoration:none
+}
+a.kat:hover {
+    background:#f5c542;color:#111;text-decoration:none
+}
+.testi {
+    background:#222;border-left:5px solid #f5c542;border-radius:8px;padding:18px;margin:0
+}
+.testi footer {
+    color:#ccc;font-size:.9rem;margin-top:8px
+}
+.footer-d {
+    background:#000;color:#ccc;padding:28px 0;margin-top:40px
+}
+.alat {
+    display:flex;gap:12px;flex-wrap:wrap;margin:20px 0 12px
+}
+.alat>div {
+    flex:1;min-width:200px
+}
+.alat label {
+    font-weight:600
+}
+.chips {
+    display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin-bottom:12px
+}
+.chip {
+    background:#222;color:#fff;border:1px solid #666;border-radius:20px;padding:6px 16px;cursor:pointer
+}
+.chip.aktif {
+    background:#f5c542;color:#111;border-color:#f5c542;font-weight:700
+}
+.toast-d {
+    position:fixed;left:50%;bottom:25px;transform:translateX(-50%);background:#f5c542;color:#111;font-weight:700;padding:11px 18px;border-radius:9px;z-index:50;display:none
+}
+#daftar-pesanan .baris-keranjang {
+    display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #333
+}
+.qty {
+    display:inline-flex;align-items:center;gap:8px
+}
+.qty button {
+    background:#333;color:#fff;border:0;border-radius:6px;width:30px;height:30px;cursor:pointer
+}
+.qty button:hover {
+    background:#f5c542;color:#111
+}
+.hero-d{
+    background:
+        radial-gradient(rgba(245,197,66,.14) 1.5px, transparent 1.5px) 0 0/22px 22px,
+        radial-gradient(circle at 85% 15%, rgba(245,197,66,.18), transparent 45%),
+        linear-gradient(135deg,#111 0%,#1d1608 100%);
+    padding:70px 0 110px;
+    border-bottom:3px solid #f5c542;
+}
+.label-hero{
+    display:inline-block;background:rgba(245,197,66,.15);color:#f5c542;
+    border:1px solid #f5c542;border-radius:30px;padding:4px 14px;
+    font-size:.85rem;font-weight:600;
+}
+.hero-d h1{font-size:clamp(2.2rem,5vw,3.6rem);font-weight:800;line-height:1.15;margin:18px 0}
+.sorot{
+    color:#111;background:#f5c542;padding:0 10px;border-radius:6px;
+    display:inline-block;transform:rotate(-1.5deg);
+}
+.lead-hero{color:#ddd;font-size:1.1rem;max-width:520px}
+.perks{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.perks li{background:#222;border:1px solid #444;border-radius:30px;padding:5px 14px;font-size:.9rem}
+.perks li span{color:#f5c542;font-weight:700}
+.hero-d .btn{margin:4px 8px 4px 0}
+
+
+.piring{
+    position:relative;background:#1b1b1b;border:2px dashed #f5c542;border-radius:24px;
+    text-align:center;padding:36px 20px;transform:rotate(2deg);
+    box-shadow:0 18px 40px rgba(0,0,0,.5);
+}
+.piring-ikon{font-size:5.5rem;line-height:1}
+.piring p{margin:10px 0 4px;font-weight:700}
+.harga-tag{display:inline-block;background:#c4192f;color:#fff;font-weight:700;padding:4px 14px;border-radius:20px}
+.stiker{
+    position:absolute;top:-18px;right:-14px;z-index:2;background:#c4192f;color:#fff;
+    font-weight:900;text-align:center;line-height:1.1;padding:16px;border-radius:50%;
+    transform:rotate(12deg);box-shadow:0 6px 14px rgba(0,0,0,.45);
+}
+@media (prefers-reduced-motion:no-preference){
+    .piring{animation:goyang 4s ease-in-out infinite}
+    @keyframes goyang{50%{transform:rotate(-1deg) translateY(-6px)}}
+}
+
+/* KOTAK KEUNGGULAN (menempel di bawah hero) */
+.kotak-wrap{margin-top:-70px;position:relative;z-index:3}
+.kotak-unggul{
+    background:#1b1b1b;border:2px solid #f5c542;border-radius:14px;text-align:center;
+    padding:18px 10px;height:100%;box-shadow:6px 6px 0 #f5c542;transition:.2s;
+}
+.kotak-unggul:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 #f5c542}
+.kotak-unggul .ik{font-size:2.2rem;display:block}
+.kotak-unggul b{display:block;color:#f5c542;font-size:1.1rem}
+.kotak-unggul small{color:#bbb}
+
+@media (max-width:767px){
+    .hero-d{padding:44px 0 90px}
+    .kotak-wrap{margin-top:-50px}
+}
